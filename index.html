@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>pride rock</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:"Yu Gothic","Meiryo",sans-serif;
+background:#f5f5f5;
+color:#222;
+line-height:1.8;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+background:#fff;
+position:sticky;
+top:0;
+z-index:999;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.header-inner{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 0;
+}
+
+.logo{
+font-size:2.6rem;
+font-weight:700;
+color:#000;
+border-bottom:4px solid #000;
+display:inline-block;
+line-height:1;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
+align-items:center;
+}
+
+nav a{
+text-decoration:none;
+color:#001b58;
+font-weight:bold;
+}
+
+.contact-btn{
+background:#001b58;
+color:#fff;
+padding:12px 18px;
+border-radius:5px;
+}
+
+.hero{
+background:linear-gradient(
+135deg,
+#00143d,
+#00266c,
+#00143d
+);
+color:#fff;
+text-align:center;
+padding:90px 20px;
+}
+
+.hero h1{
+font-size:4rem;
+line-height:1.2;
+margin-bottom:20px;
+}
+
+.gold-line{
+width:180px;
+height:3px;
+background:#d6b16a;
+margin:25px auto;
+}
+
+.hero-text{
+font-size:1.4rem;
+max-width:900px;
+margin:auto;
+}
+
+.hero-badges{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:50px;
+flex-wrap:wrap;
+}
+
+.hero-badge{
+color:#d6b16a;
+font-size:2rem;
+font-weight:bold;
+}
+
+.section{
+padding:80px 0;
+}
+
+.section-title{
+text-align:center;
+font-size:2.5rem;
+color:#001b58;
+margin-bottom:15px;
+}
+
+.section-line{
+width:80px;
+height:3px;
+background:#001b58;
+margin:0 auto 40px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+}
+
+.card{
+background:#fff;
+padding:30px;
+border-radius:10px;
+box-shadow:0 2px 15px rgba(0,0,0,.08);
+}
+
+.service-icon{
+width:90px;
+height:90px;
+border-radius:50%;
+background:#001b58;
+color:#fff;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:38px;
+margin:0 auto 20px;
+}
+
+.card h3{
+text-align:center;
+color:#001b58;
+margin-bottom:15px;
+font-size:1.8rem;
+}
+
+.card ul{
+padding-left:20px;
+}
+
+.strength{
+background:linear-gradient(
+135deg,
+#00143d,
+#00266c,
+#00143d
+);
+color:#fff;
+padding:60px 0;
+}
+
+.strength-title{
+text-align:center;
+font-size:2.5rem;
+margin-bottom:40px;
+}
+
+.strength-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+text-align:center;
+}
+
+.strength-item i{
+font-size:60px;
+margin-bottom:15px;
+}
+
+.strength-item h3{
+margin-bottom:10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="container header-inner">
+
+<div class="logo">
+pride rock
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="#top">トップ</a></li>
+
+<li><a href="#service">事業内容</a></li>
+
+<li><a href="#strength">pride rockの強み</a></li>
+
+<li><a href="#flow">ご依頼の流れ</a></li>
+
+<li><a href="#profile">事業所概要</a></li>
+
+<li>
+<a href="#contact" class="contact-btn">
+<i class="fa-solid fa-envelope"></i>
+お問い合わせ
+</a>
+</li>
+
+</ul>
+
+</nav>
+
+</div>
+
+</header>
+
+<section id="top" class="hero">
+
+<h1>
+
+品質と信頼で、<br>
+最高のパートナーに
+
+</h1>
+
+<div class="gold-line"></div>
+
+<div class="hero-text">
+
+私たちは、お客様のニーズを正確に理解し、
+「高品質」「確かな納期」「柔軟な対応力」を
+提供することで、お客様の事業発展に貢献します。
+
+</div>
+
+</section>
+<section id="service" class="section">
+
+<div class="container">
+
+<h2 class="section-title">
+
+事業内容
+
+</h2>
+
+<div class="section-line"></div>
+
+<div class="cards">
+
+<div class="card">
+
+<div class="service-icon">
+
+<i class="fa-solid fa-screwdriver-wrench"></i>
+
+</div>
+
+<h3>機械組立</h3>
+
+<ul>
+
+<li>精密機器ユニット組立</li>
+
+<li>配線作業</li>
+
+<li>調整作業</li>
+
+<li>動作確認</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<div class="service-icon">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+</div>
+
+<h3>検査・検品</h3>
+
+<ul>
+
+<li>製品の検品・検査</li>
+
+<li>外観検査</li>
+
+<li>基準書に基づいた検査</li>
+
+<li>完成品検査</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<div class="service-icon">
+
+<i class="fa-solid fa-file-lines"></i>
+
+</div>
+
+<h3>軽作業</h3>
+
+<ul>
+
+<li>機械部品交換作業</li>
+
+<li>部材情報転記作業</li>
+
+<li>その他軽作業</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<div class="service-icon">
+
+<i class="fa-solid fa-truck"></i>
+
+</div>
+
+<h3>物流対応</h3>
+
+<ul>
+
+<li>2tトラック（パワーゲート付き箱車）保有</li>
+
+<li>製品・部材の引き取り対応</li>
+
+<li>納品まで対応可能</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="strength" class="strength">
+
+<div class="container">
+
+<h2 class="strength-title">
+
+pride rockの強み
+
+</h2>
+
+<div class="gold-line"></div>
+
+<div class="strength-grid">
+
+<div class="strength-item">
+
+<i class="fa-solid fa-award"></i>
+
+<h3>品質重視</h3>
+
+<p>
+基準書・手順書を遵守し、　　　　　　安定した品質を提供します。
+
+</p>
+
+</div>
+
+<div class="strength-item">
+
+<i class="fa-solid fa-calendar-days"></i>
+
+<h3>納期厳守</h3>
+
+<p>
+
+　徹底したスケジュール管理で、
+　　納期を厳守します。
+
+</p>
+
+</div>
+
+<div class="strength-item">
+
+<i class="fa-solid fa-hands-holding"></i>
+
+<h3>柔軟な対応</h3>
+
+<p>
+
+　　小ロット、短納期案件など
+　　　柔軟に対応いたします。
+
+</p>
+
+</div>
+
+<div class="strength-item">
+
+<i class="fa-solid fa-truck-fast"></i>
+
+<h3>物流対応</h3>
+
+<p>
+
+2tパワーゲート車を保有し、　　　　　　
+　　　引取から納品まで
+スムーズな対応。
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<style>
+
+.bottom-section{
+
+padding:80px 0;
+
+}
+
+.bottom-grid{
+
+display:grid;
+
+grid-template-columns:
+1fr 1fr 1.2fr;
+
+gap:30px;
+
+}
+
+.box{
+
+background:#fff;
+
+padding:30px;
+
+border-radius:10px;
+
+box-shadow:0 2px 15px rgba(0,0,0,.08);
+
+}
+
+.box h2{
+
+color:#001b58;
+
+margin-bottom:20px;
+
+font-size:2rem;
+
+}
+
+.box ul{
+
+padding-left:20px;
+
+}
+
+.flow-step{
+
+display:flex;
+
+align-items:flex-start;
+
+gap:15px;
+
+margin-bottom:20px;
+
+}
+
+.flow-icon{
+
+width:50px;
+
+height:50px;
+
+background:#001b58;
+
+color:#fff;
+
+border-radius:50%;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+flex-shrink:0;
+
+}
+
+.form-group{
+
+margin-bottom:15px;
+
+}
+
+.form-group input,
+.form-group textarea{
+
+width:100%;
+
+padding:12px;
+
+border:1px solid #ccc;
+
+border-radius:5px;
+
+font-size:1rem;
+
+}
+
+.submit-btn{
+
+width:100%;
+
+padding:15px;
+
+background:#001b58;
+
+color:#fff;
+
+border:none;
+
+border-radius:5px;
+
+font-size:1rem;
+
+font-weight:bold;
+
+cursor:pointer;
+
+}
+
+.submit-btn:hover{
+
+background:#002c8a;
+
+}
+
+</style>
+
+<section class="bottom-section">
+
+<div class="container">
+
+<div class="bottom-grid">
+<div class="box">
+
+<h2>対応実績</h2>
+
+<ul>
+
+<li>精密医療機器ユニット組立業務</li>
+
+<li>医療用品検査業務</li>
+
+<li>電気機器部品交換業務</li>
+
+<li>部材情報転記業務</li>
+
+<li>梱包・出荷準備</li>
+
+<li>引取・納品対応</li>
+
+</ul>
+
+</div>
+
+<div class="box" id="flow">
+
+<h2>ご依頼の流れ</h2>
+
+<div class="flow-step">
+<div class="flow-icon">
+<i class="fa-solid fa-envelope"></i>
+</div>
+<div>
+<strong>お問い合わせ</strong><br>
+お問い合わせフォーム、電話よりご連絡ください。
+担当者よりご連絡いたします。
+</div>
+</div>
+
+<div class="flow-step">
+<div class="flow-icon">
+<i class="fa-solid fa-users"></i>
+</div>
+<div>
+<strong>お打ち合わせ</strong><br>
+ご要望をヒアリングし最適なご提案をいたします。
+</div>
+</div>
+
+<div class="flow-step">
+<div class="flow-icon">
+<i class="fa-solid fa-file-invoice"></i>
+</div>
+<div>
+<strong>お見積り</strong><br>
+内容に基づきお見積りをご提示いたします。
+</div>
+</div>
+
+<div class="flow-step">
+<div class="flow-icon">
+<i class="fa-solid fa-gear"></i>
+</div>
+<div>
+<strong>業務開始</strong><br>
+ご契約後、品質を重視し業務を開始します。
+</div>
+</div>
+
+<div class="flow-step">
+<div class="flow-icon">
+<i class="fa-solid fa-box"></i>
+</div>
+<div>
+<strong>納品</strong><br>
+検査・確認後、納品いたします。
+</div>
+</div>
+
+</div>
+
+<div class="box" id="contact">
+
+<h2>お問い合わせ</h2>
+
+<form
+action="https://formsubmit.co/priderock.0921@gmail.com"
+method="POST">
+
+<input type="hidden" name="_captcha" value="false">
+
+<input type="hidden"
+name="_subject"
+value="pride rock お問い合わせ">
+
+<div class="form-group">
+
+<input
+type="text"
+name="会社名"
+placeholder="会社名"
+required>
+
+</div>
+
+<div class="form-group">
+
+<input
+type="text"
+name="ご担当者名"
+placeholder="ご担当者名"
+required>
+
+</div>
+
+<div class="form-group">
+
+<input
+type="email"
+name="メールアドレス"
+placeholder="メールアドレス"
+required>
+
+</div>
+
+<div class="form-group">
+
+<input
+type="tel"
+name="電話番号"
+placeholder="電話番号">
+
+</div>
+
+<div class="form-group">
+
+<textarea
+name="お問い合わせ内容"
+rows="6"
+placeholder="お問い合わせ内容"
+required></textarea>
+
+</div>
+
+<button
+type="submit"
+class="submit-btn">
+
+<i class="fa-solid fa-paper-plane"></i>
+送信する
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="profile" class="section">
+
+<div class="container">
+
+<div class="box">
+
+<h2>事業所概要</h2>
+
+<div style="margin-top:20px;">
+
+<h3 style="font-size:2rem;color:#001b58;">
+
+pride rock
+
+</h3>
+
+
+<p>
+<strong>代表：</strong>
+増田 妃美子
+</p>
+
+
+
+<p>
+<strong>所在地：</strong>
+〒666-0143
+兵庫県川西市清和台西1-5-3
+</p>
+
+
+
+<p>
+<strong>TEL：</strong>
+090-8252-9812（担当：早川）
+</p>
+
+
+<p>
+<strong>MAIL：</strong>
+priderock.0921@gmail.com
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="container">
+
+© pride rock
+
+</div>
+
+</footer>
+
+<style>
+
+@media(max-width:1000px){
+
+.cards{
+grid-template-columns:1fr 1fr;
+}
+
+.strength-grid{
+grid-template-columns:1fr 1fr;
+}
+
+.bottom-grid{
+grid-template-columns:1fr;
+}
+
+.hero h1{
+font-size:3rem;
+}
+
+}
+
+@media(max-width:700px){
+
+.header-inner{
+flex-direction:column;
+gap:15px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
+
+.cards{
+grid-template-columns:1fr;
+}
+
+.strength-grid{
+grid-template-columns:1fr;
+}
+
+.hero{
+padding:60px 20px;
+}
+
+.hero h1{
+font-size:2.3rem;
+}
+
+.hero-text{
+font-size:1rem;
+}
+
+.logo{
+font-size:2rem;
+}
+
+.hero-badges{
+gap:20px;
+}
+
+.hero-badge{
+font-size:1.4rem;
+}
+
+}
+
+</style>
+
+</body>
+</html>
+
